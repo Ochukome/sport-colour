@@ -3,10 +3,10 @@ const slides = document.querySelectorAll(".slide");
 
 // COLORS with WhatsApp links
 const colors = [
-  { name: "Red", link: "https://wa.me/2349012345678?text=Hey+Red+Team!" },
-  { name: "Blue", link: "https://wa.me/2349012345679?text=Hey+Blue+Team!" },
-  { name: "Green", link: "https://wa.me/2349012345680?text=Hey+Green+Team!" },
-  { name: "Yellow", link: "https://wa.me/2349012345681?text=Hey+Yellow+Team!" }
+  { name: "Red", link: "https://chat.whatsapp.com/DvXiIo5qVGz1ez02wPlw8X" },
+  { name: "Blue", link: "https://chat.whatsapp.com/H9X6Nkp6oiW4N9pJKBy49t" },
+  { name: "Green", link: "https://chat.whatsapp.com/Edl2eq7q2xo47cZdOeVh7r" },
+  { name: "Yellow", link: "https://chat.whatsapp.com/Hr3BLzli7AdJCkDnFl3JH0" }
 ];
 
 // On load, check if user already exists
@@ -19,7 +19,7 @@ window.onload = () => {
         <h2>Hi ${user.fullname}, you already got your colour 🎨</h2>
         <p>Your colour is <strong>${user.color}</strong></p>
         <a href="${getLink(user.color)}" target="_blank">Join WhatsApp Group</a>
-        <p class="thank-you">Thanks for playing Sport Colour!</p>
+        <p class="thank-you">Thank you for participating</p>
         <button onclick="resetApp()">Start Over</button>
       </section>
     `;
