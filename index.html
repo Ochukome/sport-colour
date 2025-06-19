@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sport Colour</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="overlay"></div>
+<div class="app">
+    <div class="card" id="slides">
+
+      <!-- Slide 1: Welcome -->
+      <section class="slide active">
+        <h1>Welcome!!</h1>
+        <p>Ready to find your colour? Click next!</p>
+        <button onclick="nextSlide()">Next</button>
+      </section>
+
+      <!-- Slide 2: Full Name + Email -->
+      <section class="slide">
+        <h2>Let’s get to know you</h2>
+        <input type="text" id="fullname" placeholder="Enter your full name" />
+        <input type="email" id="email" placeholder="Enter your email" />
+        <div class="nav-buttons">
+          <button onclick="prevSlide()">Back</button>
+          <button onclick="nextSlide()">Continue</button>
+        </div>
+      </section>
+
+      <!-- Slide 3: Color Picker -->
+      <section class="slide" id="color-slide">
+        <h2>We’re picking your colour...</h2>
+        <div id="color-display">🎲</div>
+        <div class="nav-buttons">
+          <button onclick="prevSlide()">Back</button>
+          <button onclick="lockColor()">Lock My Colour</button>
+        </div>
+      </section>
+
+      <!-- Slide 4: Result -->
+      <section class="slide" id="result-slide">
+        <h2 id="final-message">🎉</h2>
+        <a id="whatsapp-link" href="#" target="_blank">Join Your WhatsApp Group</a>
+        <p class="thank-you">Thanks for playing Sport Colour! ✨</p>
+      </section>
+
+    </div>
+  </div>
+
+  <!-- Footer below the card -->
+  <p class="footer">Powered by Ochukome 💡</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+   
+
