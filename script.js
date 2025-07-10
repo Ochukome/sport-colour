@@ -3,10 +3,10 @@ const slides = document.querySelectorAll(".slide");
 
 // COLORS with WhatsApp links
 const colors = [
-  { name: "Red", link: "https://chat.whatsapp.com/DvXiIo5qVGz1ez02wPlw8X" },
-  { name: "Blue", link: "https://chat.whatsapp.com/H9X6Nkp6oiW4N9pJKBy49t" },
-  { name: "Green", link: "https://chat.whatsapp.com/Edl2eq7q2xo47cZdOeVh7r" },
-  { name: "Yellow", link: "https://chat.whatsapp.com/Hr3BLzli7AdJCkDnFl3JH0" }
+  { name: "Crimson", link: "https://chat.whatsapp.com/DvXiIo5qVGz1ez02wPlw8X" },
+  { name: "Sky Blue", link: "https://chat.whatsapp.com/H9X6Nkp6oiW4N9pJKBy49t" },
+  { name: "olive", link: "https://chat.whatsapp.com/Edl2eq7q2xo47cZdOeVh7r" },
+  { name: "lavinda", link: "https://chat.whatsapp.com/Hr3BLzli7AdJCkDnFl3JH0" }
 ];
 
 // On load, check if user already exists
